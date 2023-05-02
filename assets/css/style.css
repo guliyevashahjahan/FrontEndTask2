@@ -6,20 +6,54 @@ header {
     background-color: black;
     color: white;
     height: 45px;
+    position: sticky;
+    top: 0px;
 }
 header nav {
     float: left;
 }
 header button {
     float: right;
+    padding: 14.5px 20px;
+    background-color: transparent;
 }
 header ul li {
     float: left;
 }
 header ul a {
     display: inline-block;
-    height: 45pc;
+    height: 45px;
     font-size: 15px;
     padding: 0px 20px;
     line-height: 45px;
+    text-transform: uppercase;
+}
+
+header ul li i {
+    margin-left: 3px;
+}
+header ul a:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+    
+header .search-btn i {
+    font-size: 15px;
+    color: white;
+}
+header .search-btn:hover{
+    background-color: #f44336;
+}
+#Banner{
+    height: 100vh;
+    background: #f44336 url(../images/yannis-papanastasopoulos-yWF2LLan-_o-unsplash.jpg);
+    background-position: center right;
+}
+.banner-content{
+    color: white;
+    position: relative;
+    z-index: 10;
+    padding-top: 500px;
+    text-align: center;
 }
