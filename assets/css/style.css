@@ -2,6 +2,10 @@
 body {
     font-family:  'Lato', sans-serif;
 }
+.container{
+    width: 40%;
+    margin: 0px auto;
+}
 header {
     background-color: black;
     color: white;
@@ -46,7 +50,7 @@ header .search-btn:hover{
     background-color: #f44336;
 }
 #Banner{
-    height: 100vh;
+    height: calc(100vh - 45px);
     background: #f44336 url(../images/yannis-papanastasopoulos-yWF2LLan-_o-unsplash.jpg);
     background-position: center right;
 }
@@ -54,6 +58,114 @@ header .search-btn:hover{
     color: white;
     position: relative;
     z-index: 10;
-    padding-top: 500px;
+    padding-top: 85vh;
     text-align: center;
+}
+.banner-content h2{
+    margin-bottom: 12px;
+}
+#About{
+    padding: 100px 0px;
+    text-align: center;
+    overflow: auto;
+}
+.section-title h1,
+.section-title h2{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.section-title p{
+    font-style: italic;
+    margin: 30px 0px;
+    color: rgb(138, 136, 136);
+    text-align: center;
+}
+#About .about-desc{
+    text-align: justify;
+}
+#About .article-list{
+margin-top: 50px;
+}
+#About .article-list article{
+    float: left;
+    width: calc(100%/3);
+    padding: 0px 20px;
+}
+#About .article-list article img{
+    width: 100%;
+    margin-top: 20px;
+}
+#Tour{ 
+    padding: 100px 0px;
+    background: black;
+    overflow: auto;
+}
+#Tour .section-title{
+    color: white;
+}
+#Tour ul{
+    background: white;
+    border-radius: 1px;
+}
+#Tour ul li{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 12px 20px;
+    font-size: 15px;
+    color: #757575;
+}
+#Tour ul .status{
+    background: #f44336;
+    color: white;
+    display: inline-block;
+    padding: 4px 8px;
+    margin-left: 12px;
+}
+#Tour ul .count{
+    background: black;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 50%;
+    float: right;
+}
+#Tour .ticket-list{
+    margin-top: 40px;
+}
+#Tour .ticket-list article{
+    width: calc(100%/3 - 10px);
+    background: white;
+    float: left;
+}
+#Tour .ticket-list article:nth-child(2){
+    margin: 0px 15px;
+}
+#Tour .ticket-list article img{
+    width: 100%;
+}
+#Tour article .article-text{
+    padding: 12px;
+}
+#Tour article h3{
+    font-size: 15px;
+    font-weight: 800;
+}
+#Tour article span{
+    display: inline-block;
+    margin: 20px 0px;
+}
+.btn{
+    background: black;
+    color: white;
+    margin-top: 12px;
+    padding: 8px 12px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #ccc;
+    color: black;
+}
+.Contact{
+    padding: 100px 0px;
 }
