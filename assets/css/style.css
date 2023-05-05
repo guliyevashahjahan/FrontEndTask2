@@ -3,7 +3,7 @@ body {
     font-family:  'Lato', sans-serif;
 }
 .container{
-    width: 40%;
+    width: 60%;
     margin: 0px auto;
 }
 header {
@@ -40,14 +40,12 @@ header ul a:hover {
     background-color: #ccc;
     color: black;
 }
-
-    
 header .search-btn i {
     font-size: 15px;
     color: white;
 }
 header .search-btn:hover{
-    background-color: #f44336;
+    background-color:#f44336;
 }
 #Banner{
     height: calc(100vh - 45px);
@@ -167,18 +165,57 @@ margin-top: 50px;
     color: black;
 }
 .Contact{
-    padding: 100px 0px;
+    padding: 90px 0px;
+    margin-bottom: 150px;
+}
+.Contact .section-title{
+    margin-bottom: 50px;
 }
 .contact-info{
     float: left;
-    font-size: 18px
+    font-size: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 1.5;
+    
 }
 .contact-info i{
     float: left;
     margin-right: 20px;
+    font-size:small;
+    margin-top: 4px;
+}
+.contact-info p{
+    margin-bottom: 8px;
 }
 .contact-input{
     float: right;
 
 }
-.contact-input 
+.contact-input input{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 4px;
+}
+.contact-input button{
+    float: right;
+}
+.picture{
+    width: 100%;
+    height: 100vh;
+    background: #757575 url(../images/christian-felix-moller-somers-P8L1oCUNq-k-unsplash.jpg);
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    float: left;
+}
+.navigator{
+float: left;
+
+}
+.navigator ul li{
+    float: left;
+    margin: 0px auto;
+}
