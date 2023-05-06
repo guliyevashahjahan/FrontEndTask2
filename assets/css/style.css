@@ -207,15 +207,29 @@ margin-top: 50px;
 }
 .footer{
     width: 100%;
-    height: 200px;
-    background-color: white;
+    height: 230px;
+    background-color: #f1f1f1;
     float: left;
 }
 .navigator{
-float: left;
-
+width: 12%;
+margin: 0px auto;
+padding-top: 90px;
 }
 .navigator ul li{
     float: left;
-    margin: 0px auto;
+}
+.navigator i{
+    margin-right: 5px;
+    font-size:x-large;
+    color:#757575;
+}
+.navigator p{
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight:300;
+    margin-left: 13px;
+}
+.navigator p a{
+    border-bottom: 1px solid #757575;
 }
