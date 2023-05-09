@@ -12,6 +12,7 @@ header {
     height: 45px;
     position: sticky;
     top: 0px;
+    z-index: 100;
 }
 header nav {
     float: left;
@@ -168,13 +169,17 @@ margin-top: 50px;
     padding: 90px 0px;
     margin-bottom: 150px;
 }
+.Contact .container .cont{
+    display: flex;
+    justify-content: space-between;
+}
 .Contact .section-title{
     margin-bottom: 50px;
 }
 .contact-info{
-    float: left;
+    
     font-size: 18px;
-    overflow: hidden;
+    
     white-space: nowrap;
     line-height: 1.5;
     
@@ -187,10 +192,6 @@ margin-top: 50px;
 }
 .contact-info p{
     margin-bottom: 8px;
-}
-.contact-input{
-    float: right;
-
 }
 .contact-input input{
     border: 1px solid #ccc;
